@@ -1,0 +1,31 @@
+# lake build LeanLab.BS2022GRH.JournalPositive, PC run 20261020T0802Z-20406 unit U-1193, cloud workspace, Lean v4.35.0 Mathlib v4.35.0
+Tue Oct 20 08:17:15 UTC 2026
+⚠ [9047/9059] Replayed LeanLab.BS2022GRH.Params
+warning: LeanLab/BS2022GRH/Params.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [9048/9059] Replayed LeanLab.ChenExplicit.Statements
+warning: LeanLab/ChenExplicit/Statements.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [9052/9059] Replayed LeanLab.ChenExplicit.Yamada
+warning: LeanLab/ChenExplicit/Yamada.lean:127:41: Variable name `he0` is not explicitly referenced.
+
+  [apply] _he0
+
+⚠ [9055/9059] Replayed LeanLab.ChenExplicit.GammaBounds
+warning: LeanLab/ChenExplicit/GammaBounds.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [9056/9059] Replayed LeanLab.BS2022GRH.Constants
+warning: LeanLab/BS2022GRH/Constants.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: LeanLab/BS2022GRH/Constants.lean:217:23: Variable name `h0` is not explicitly referenced.
+
+  [apply] _h0
+
+ℹ [9057/9059] Replayed LeanLab.BS2022GRH.JournalMargin
+info: LeanLab/BS2022GRH/JournalMargin.lean:109:0: 'LeanLab.BS2022GRH.Journal.theorem3_journal_main' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [9058/9059] Replayed LeanLab.Helfgott2013.GammaFine
+warning: LeanLab/Helfgott2013/GammaFine.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+ℹ [9059/9059] Replayed LeanLab.BS2022GRH.JournalPositive
+info: LeanLab/BS2022GRH/JournalPositive.lean:148:0: 'LeanLab.BS2022GRH.Journal.theorem3_positive_main' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/JournalPositive.lean:149:0: 'LeanLab.BS2022GRH.Journal.conditions_13375' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/JournalPositive.lean:150:0: 'LeanLab.BS2022GRH.Journal.params_ok_13375' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (9059 jobs).
+EXIT 0
+# sorry count
+0

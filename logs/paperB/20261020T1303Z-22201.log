@@ -1,0 +1,34 @@
+# build log 20261020T1303Z-22201, unit U-1227, lake build in a fresh cloud workspace, Lean v4.35.0, Mathlib v4.35.0
+## lake build LeanLab.BS2022GRH.JournalPositive
+✔ [9051/9059] Built LeanLab.ChenExplicit.Reductions (36s)
+✔ [9052/9059] Built LeanLab.ChenExplicit.Bridge (40s)
+✔ [9053/9059] Built LeanLab.ChenExplicit.Assembly (29s)
+⚠ [9054/9059] Built LeanLab.ChenExplicit.Yamada (39s)
+✔ [9055/9059] Built LeanLab.ChenExplicit.C2Bound (29s)
+✔ [9056/9059] Built LeanLab.ChenExplicit.BJSCbar (32s)
+⚠ [9057/9059] Built LeanLab.BS2022GRH.Constants (34s)
+ℹ [9058/9059] Built LeanLab.BS2022GRH.JournalMargin (29s)
+info: LeanLab/BS2022GRH/JournalMargin.lean:109:0: 'LeanLab.BS2022GRH.Journal.theorem3_journal_main' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9059/9059] Built LeanLab.BS2022GRH.JournalPositive (28s)
+info: LeanLab/BS2022GRH/JournalPositive.lean:148:0: 'LeanLab.BS2022GRH.Journal.theorem3_positive_main' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/JournalPositive.lean:149:0: 'LeanLab.BS2022GRH.Journal.conditions_13375' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/JournalPositive.lean:150:0: 'LeanLab.BS2022GRH.Journal.params_ok_13375' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (9059 jobs).
+EXIT 0
+## lake build LeanLab.BS2022GRH.RangeCheck13375
+⚠ [9058/9060] Replayed LeanLab.Helfgott2013.GammaFine
+ℹ [9059/9060] Replayed LeanLab.BS2022GRH.JournalPositive
+info: LeanLab/BS2022GRH/JournalPositive.lean:148:0: 'LeanLab.BS2022GRH.Journal.theorem3_positive_main' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/JournalPositive.lean:149:0: 'LeanLab.BS2022GRH.Journal.conditions_13375' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/JournalPositive.lean:150:0: 'LeanLab.BS2022GRH.Journal.params_ok_13375' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9060/9060] Built LeanLab.BS2022GRH.RangeCheck13375 (23s)
+info: LeanLab/BS2022GRH/RangeCheck13375.lean:114:0: 'LeanLab.BS2022GRH.Journal.lemma7_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/RangeCheck13375.lean:115:0: 'LeanLab.BS2022GRH.Journal.display25_first' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/RangeCheck13375.lean:116:0: 'LeanLab.BS2022GRH.Journal.display25_third' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/RangeCheck13375.lean:117:0: 'LeanLab.BS2022GRH.Journal.remark1_H' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/RangeCheck13375.lean:118:0: 'LeanLab.BS2022GRH.Journal.remark1_H_vacuity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/RangeCheck13375.lean:119:0: 'LeanLab.BS2022GRH.Journal.mono_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/RangeCheck13375.lean:120:0: 'LeanLab.BS2022GRH.Journal.mono_range_13375' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/RangeCheck13375.lean:121:0: 'LeanLab.BS2022GRH.Journal.sieve_ranges_13375' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (9060 jobs).
+EXIT 0

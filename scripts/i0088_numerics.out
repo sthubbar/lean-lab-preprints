@@ -1,0 +1,37 @@
+eps(1500) = 1/8349.3238  < 1/8349: True
+alpha 0.00256 llX2 13.375: total 1.535054e-04, (19) a*L-11*ll = 1500.767 >= 1500
+alpha 0.0024 llX2 13.45: total 5.174668e-03, (19) a*L-11*ll = 1517.272 >= 1500
+binding: (19)/(21)/(25) second part needs llX2 >= 13.374532 at alpha=0.00256 (slack 0.00047);
+  positivity needs alpha < 0.0025649 at llX2=13.375; joint optimum at u=1500: llX2 = 13.37261, alpha = 0.0025649
+--- ranges at llX2 = 13.375 alpha = 0.00256
+  (19)(21)(25) part 2: a*logX2-11*llX2 >= u                 1500.766679 vs  1500.000000  OK
+  (19)(21)(25) part 1: logX2 >= 11/a                      643707.687085 vs  4296.875000  OK
+  (25) part 1b: logX2 >= 48(A+4/3)                        643707.687085 vs   544.000000  OK
+  (25) part 3 (log): logX2/48-(34/3)llX2 >= log 0.44       13258.993481 vs    -0.820981  OK
+  alpha1<1/8, alpha3<1/16, alpha2<1/24                         0.002560 vs     0.041667  OK
+  Lemma 7: log z = logX2/8 > 2753                          80463.460886 vs  2753.000000  OK
+  Thm 5: s = 4-8a in [3,4]                                     3.979520 vs     3.000000  OK
+  Thm 6: k = 8(1/6-a) in [1,2]                                 1.312853 vs     1.000000  OK
+  Remark 1: log H = logX2/2-11 llX2 >= log 1e8            321706.718543 vs    18.420681  OK
+  Lemma 11: llX2 >= 10                                        13.375000 vs    10.000000  OK
+  Lemmas 12-13: logX2 >= log(4e18)                        643707.687085 vs    42.832826  OK
+  Lemma 14: log y = logX2/3 >= log 2657                   214569.229028 vs     7.884953  OK
+  Thm 6 proof: log y >= log 286                           214569.229028 vs     5.655992  OK
+  u in [400, 1e8]                                           1500.000000 vs   400.000000  OK
+--- ranges at llX2 = 13.45 alpha = 0.0024
+  (19)(21)(25) part 2: a*logX2-11*llX2 >= u                 1517.271553 vs  1500.000000  OK
+  (19)(21)(25) part 1: logX2 >= 11/a                      693842.313712 vs  4583.333333  OK
+  (25) part 1b: logX2 >= 48(A+4/3)                        693842.313712 vs   544.000000  OK
+  (25) part 3 (log): logX2/48-(34/3)llX2 >= log 0.44       14302.614869 vs    -0.820981  OK
+  alpha1<1/8, alpha3<1/16, alpha2<1/24                         0.002400 vs     0.041667  OK
+  Lemma 7: log z = logX2/8 > 2753                          86730.289214 vs  2753.000000  OK
+  Thm 5: s = 4-8a in [3,4]                                     3.980800 vs     3.000000  OK
+  Thm 6: k = 8(1/6-a) in [1,2]                                 1.314133 vs     1.000000  OK
+  Remark 1: log H = logX2/2-11 llX2 >= log 1e8            346773.206856 vs    18.420681  OK
+  Lemma 11: llX2 >= 10                                        13.450000 vs    10.000000  OK
+  Lemmas 12-13: logX2 >= log(4e18)                        693842.313712 vs    42.832826  OK
+  Lemma 14: log y = logX2/3 >= log 2657                   231280.771237 vs     7.884953  OK
+  Thm 6 proof: log y >= log 286                           231280.771237 vs     5.655992  OK
+  u in [400, 1e8]                                           1500.000000 vs   400.000000  OK
+log of 1e5 log^2N N^(-1/8): -80425.20
+mbar ~ 5.7708 (<= 2*1.08*2/log2 = 6.2324 <= 8); remainder (33) ratio <= 1.611e-15
