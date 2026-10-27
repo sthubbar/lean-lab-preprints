@@ -4,12 +4,13 @@ aiXiv:2610.02760 (aixiv.261026.000001).
 
 This file only re-exports the headline results and prints their statements and axioms.
 These are arithmetic and parameter-range checks for Section 5.4 of Bordignon and Starichkova;
-Chen's theorem itself is not stated or proved here.
+v1.3 adds the threshold theorem, CONDITIONAL on the cited Theorems 5, 6, 7 and the linear sieve.
 -/
 import LeanLab.BS2022GRH.JournalPositive
 import LeanLab.BS2022GRH.JournalMargin
 import LeanLab.BS2022GRH.RangeCheck13375
 import LeanLab.BS2022GRH.JournalLower
+import LeanLab.BS2022GRH.Cert1575Closed
 
 -- The main-term constant K3J used in Section 5.4.
 #check @LeanLab.BS2022GRH.Journal.K3J
@@ -41,3 +42,14 @@ import LeanLab.BS2022GRH.JournalLower
 #print axioms LeanLab.BS2022GRH.Journal.theorem3_lower_main
 #check @LeanLab.BS2022GRH.Journal.conditions_1345
 #print axioms LeanLab.BS2022GRH.Journal.conditions_1345
+
+-- v1.3: the threshold, conditional on Thm5J, Thm6J, Thm7J and LinearSieveT4.
+#check @LeanLab.BS2022GRH.ChenThresholdGRH.ChenThreshold13375
+#check @LeanLab.BS2022GRH.Cert1575.chenThreshold13375_of_deep_closed
+#print axioms LeanLab.BS2022GRH.Cert1575.chenThreshold13375_of_deep_closed
+#check @LeanLab.BS2022GRH.Cert1575.eps1500
+#print axioms LeanLab.BS2022GRH.Cert1575.eps1500
+#check @LeanLab.BS2022GRH.Cert1567.bracket13375_holds
+#print axioms LeanLab.BS2022GRH.Cert1567.bracket13375_holds
+#check @LeanLab.BS2022GRH.ChenThresholdGRH.lemma9J_holds
+#print axioms LeanLab.BS2022GRH.ChenThresholdGRH.lemma9J_holds
