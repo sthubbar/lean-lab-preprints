@@ -1,0 +1,965 @@
+== U-1575 build, started Tue Oct 27 09:20:40 UTC 2026
+== lake build LeanLab.BS2022GRH.Cert1567
+⚠ [9047/9077] Replayed LeanLab.Common.Goldbach
+warning: LeanLab/Common/Goldbach.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: LeanLab/Common/Goldbach.lean:52:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: LeanLab/Common/Goldbach.lean:54:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: LeanLab/Common/Goldbach.lean:55:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: LeanLab/Common/Goldbach.lean:83:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: LeanLab/Common/Goldbach.lean:84:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: LeanLab/Common/Goldbach.lean:88:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [9048/9077] Built LeanLab.BS2022GRH.LiPV (37s)
+warning: LeanLab/BS2022GRH/LiPV.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+info: LeanLab/BS2022GRH/LiPV.lean:224:0: 'LeanLab.BS2022GRH.gli_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/LiPV.lean:225:0: 'LeanLab.BS2022GRH.tendsto_liPart' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/LiPV.lean:226:0: 'LeanLab.BS2022GRH.liPV_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/LiPV.lean:227:0: 'LeanLab.BS2022GRH.liPV_two_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/LiPV.lean:228:0: 'LeanLab.BS2022GRH.liPV_eq_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/LiPV.lean:229:0: 'LeanLab.BS2022GRH.liPV_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [9049/9077] Built LeanLab.BS2022GRH.U7153Lemma10 (51s)
+warning: LeanLab/BS2022GRH/U7153Lemma10.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: LeanLab/BS2022GRH/U7153Lemma10.lean:158:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: LeanLab/BS2022GRH/U7153Lemma10.lean:241:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: LeanLab/BS2022GRH/U7153Lemma10.lean:246:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: LeanLab/BS2022GRH/U7153Lemma10.lean:251:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: LeanLab/BS2022GRH/U7153Lemma10.lean:255:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: LeanLab/BS2022GRH/U7153Lemma10.lean:255:17: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: LeanLab/BS2022GRH/U7153Lemma10.lean:255:28: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: LeanLab/BS2022GRH/U7153Lemma10.lean:247:63: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: LeanLab/BS2022GRH/U7153Lemma10.lean:252:63: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: LeanLab/BS2022GRH/U7153Lemma10.lean:247:63: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: LeanLab/BS2022GRH/U7153Lemma10.lean:252:63: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: LeanLab/BS2022GRH/U7153Lemma10.lean:267:34: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: LeanLab/BS2022GRH/U7153Lemma10.lean:277:52: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: LeanLab/BS2022GRH/U7153Lemma10.lean:280:34: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: LeanLab/BS2022GRH/U7153Lemma10.lean:400:36: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: LeanLab/BS2022GRH/U7153Lemma10.lean:446:57: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: LeanLab/BS2022GRH/U7153Lemma10.lean:454:57: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+info: LeanLab/BS2022GRH/U7153Lemma10.lean:520:0: 'LeanLab.BS2022GRH.U7153.pointwise' depends on axioms: [propext, choice, Quot.sound]
+info: LeanLab/BS2022GRH/U7153Lemma10.lean:521:0: 'LeanLab.BS2022GRH.U7153.card_nsq_le' depends on axioms: [propext, choice, Quot.sound]
+info: LeanLab/BS2022GRH/U7153Lemma10.lean:522:0: 'LeanLab.BS2022GRH.U7153.card_T_le' depends on axioms: [propext, choice, Quot.sound]
+info: LeanLab/BS2022GRH/U7153Lemma10.lean:523:0: 'LeanLab.BS2022GRH.U7153.lemma10' depends on axioms: [propext, choice, Quot.sound]
+⚠ [9050/9077] Replayed LeanLab.ChenExplicit.Statements
+warning: LeanLab/ChenExplicit/Statements.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [9051/9077] Built LeanLab.ChenExplicit.GammaBounds (44s)
+warning: LeanLab/ChenExplicit/GammaBounds.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [9052/9077] Built LeanLab.BS2022GRH.Params (55s)
+warning: LeanLab/BS2022GRH/Params.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [9053/9077] Built LeanLab.DERZ1997.Statements (47s)
+warning: LeanLab/DERZ1997/Statements.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: LeanLab/DERZ1997/Statements.lean:28:8: declaration uses `sorry`
+warning: LeanLab/DERZ1997/Statements.lean:33:8: declaration uses `sorry`
+warning: LeanLab/DERZ1997/Statements.lean:39:8: declaration uses `sorry`
+⚠ [9054/9077] Built LeanLab.Helfgott2013.GammaFine (48s)
+warning: LeanLab/Helfgott2013/GammaFine.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [9055/9077] Built LeanLab.ChenExplicit.Reductions (46s)
+✔ [9056/9077] Built LeanLab.ChenExplicit.Bridge (49s)
+⚠ [9057/9077] Built LeanLab.AlmostPrimeSums.Statements (50s)
+warning: LeanLab/AlmostPrimeSums/Statements.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: LeanLab/AlmostPrimeSums/Statements.lean:29:8: declaration uses `sorry`
+warning: LeanLab/AlmostPrimeSums/Statements.lean:32:8: declaration uses `sorry`
+warning: LeanLab/AlmostPrimeSums/Statements.lean:35:8: declaration uses `sorry`
+✔ [9058/9077] Built LeanLab.ChenExplicit.Assembly (38s)
+⚠ [9059/9077] Built LeanLab.ChenExplicit.TwinCNumeric (40s)
+warning: LeanLab/ChenExplicit/TwinCNumeric.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: LeanLab/ChenExplicit/TwinCNumeric.lean:124:19: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: LeanLab/ChenExplicit/TwinCNumeric.lean:130:63: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: LeanLab/ChenExplicit/TwinCNumeric.lean:134:34: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+⚠ [9060/9077] Built LeanLab.ChenExplicit.Yamada (50s)
+warning: LeanLab/ChenExplicit/Yamada.lean:127:41: Variable name `he0` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _he0
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [9061/9077] Built LeanLab.ChenExplicit.C2Bound (28s)
+✔ [9062/9077] Built LeanLab.ChenExplicit.BJSCbar (30s)
+⚠ [9063/9077] Built LeanLab.BS2022GRH.Constants (31s)
+warning: LeanLab/BS2022GRH/Constants.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: LeanLab/BS2022GRH/Constants.lean:217:23: Variable name `h0` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _h0
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [9064/9077] Built LeanLab.BS2022GRH.QG (34s)
+warning: LeanLab/BS2022GRH/QG.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+ℹ [9065/9077] Built LeanLab.BS2022GRH.JournalMargin (37s)
+info: LeanLab/BS2022GRH/JournalMargin.lean:109:0: 'LeanLab.BS2022GRH.Journal.theorem3_journal_main' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9066/9077] Built LeanLab.BS2022GRH.JournalPositive (36s)
+info: LeanLab/BS2022GRH/JournalPositive.lean:148:0: 'LeanLab.BS2022GRH.Journal.theorem3_positive_main' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/JournalPositive.lean:149:0: 'LeanLab.BS2022GRH.Journal.conditions_13375' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/JournalPositive.lean:150:0: 'LeanLab.BS2022GRH.Journal.params_ok_13375' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9067/9077] Built LeanLab.BS2022GRH.Thm5Factor (40s)
+info: LeanLab/BS2022GRH/Thm5Factor.lean:142:0: 'LeanLab.BS2022GRH.theorem3_main_thm5' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Thm5Factor.lean:143:0: 'LeanLab.BS2022GRH.K3_first' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Thm5Factor.lean:144:0: 'LeanLab.BS2022GRH.delta_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Thm5Factor.lean:145:0: 'LeanLab.BS2022GRH.thm5Bracket_ge' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Thm5Factor.lean:146:0: 'LeanLab.BS2022GRH.thm5Bracket_ge_params' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9068/9077] Built LeanLab.BS2022GRH.RangeCheck13375 (34s)
+info: LeanLab/BS2022GRH/RangeCheck13375.lean:114:0: 'LeanLab.BS2022GRH.Journal.lemma7_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/RangeCheck13375.lean:115:0: 'LeanLab.BS2022GRH.Journal.display25_first' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/RangeCheck13375.lean:116:0: 'LeanLab.BS2022GRH.Journal.display25_third' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/RangeCheck13375.lean:117:0: 'LeanLab.BS2022GRH.Journal.remark1_H' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/RangeCheck13375.lean:118:0: 'LeanLab.BS2022GRH.Journal.remark1_H_vacuity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/RangeCheck13375.lean:119:0: 'LeanLab.BS2022GRH.Journal.mono_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/RangeCheck13375.lean:120:0: 'LeanLab.BS2022GRH.Journal.mono_range_13375' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/RangeCheck13375.lean:121:0: 'LeanLab.BS2022GRH.Journal.sieve_ranges_13375' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [9069/9077] Built LeanLab.BS2022GRH.Thm6Factor (50s)
+warning: LeanLab/BS2022GRH/Thm6Factor.lean:60:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+info: LeanLab/BS2022GRH/Thm6Factor.lean:288:0: 'LeanLab.BS2022GRH.kA_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Thm6Factor.lean:289:0: 'LeanLab.BS2022GRH.e2h_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Thm6Factor.lean:290:0: 'LeanLab.BS2022GRH.rX_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Thm6Factor.lean:291:0: 'LeanLab.BS2022GRH.thm6Main_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Thm6Factor.lean:292:0: 'LeanLab.BS2022GRH.l1T6_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Thm6Factor.lean:293:0: 'LeanLab.BS2022GRH.l2T6_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Thm6Factor.lean:294:0: 'LeanLab.BS2022GRH.l3T6_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Thm6Factor.lean:295:0: 'LeanLab.BS2022GRH.thm6Bracket_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Thm6Factor.lean:296:0: 'LeanLab.BS2022GRH.K3_second' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Thm6Factor.lean:297:0: 'LeanLab.BS2022GRH.thm6Bracket_le_params' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Thm6Factor.lean:298:0: 'LeanLab.BS2022GRH.theorem3_main_thm56' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [9070/9077] Built LeanLab.BS2022GRH.Thm7Factor (43s)
+warning: LeanLab/BS2022GRH/Thm7Factor.lean:249:57: Variable name `hα0` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hα0
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: LeanLab/BS2022GRH/Thm7Factor.lean:353:0: 'LeanLab.BS2022GRH.integral_inv_log_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Thm7Factor.lean:354:0: 'LeanLab.BS2022GRH.t_exp_neg_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Thm7Factor.lean:355:0: 'LeanLab.BS2022GRH.li_factor_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Thm7Factor.lean:356:0: 'LeanLab.BS2022GRH.a7_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Thm7Factor.lean:357:0: 'LeanLab.BS2022GRH.d7_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Thm7Factor.lean:358:0: 'LeanLab.BS2022GRH.e7_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Thm7Factor.lean:359:0: 'LeanLab.BS2022GRH.thm7Bracket_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Thm7Factor.lean:360:0: 'LeanLab.BS2022GRH.K3_third' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Thm7Factor.lean:361:0: 'LeanLab.BS2022GRH.theorem3_main_thm567' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9071/9077] Built LeanLab.BS2022GRH.Lemma9M (57s)
+info: LeanLab/BS2022GRH/Lemma9M.lean:310:0: 'LeanLab.BS2022GRH.m9T3' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Lemma9M.lean:311:0: 'LeanLab.BS2022GRH.m9T4' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Lemma9M.lean:312:0: 'LeanLab.BS2022GRH.m9T5' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Lemma9M.lean:313:0: 'LeanLab.BS2022GRH.mL9_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Lemma9M.lean:314:0: 'LeanLab.BS2022GRH.qG_ge' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Lemma9M.lean:315:0: 'LeanLab.BS2022GRH.m_at' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Lemma9M.lean:316:0: 'LeanLab.BS2022GRH.theorem3_main_thm567_m' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9072/9077] Built LeanLab.BS2022GRH.Theorem3 (26s)
+info: LeanLab/BS2022GRH/Theorem3.lean:128:0: 'LeanLab.BS2022GRH.exp_ge_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Theorem3.lean:129:0: 'LeanLab.BS2022GRH.error_terms' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Theorem3.lean:130:0: 'LeanLab.BS2022GRH.theorem3_of' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Theorem3.lean:131:0: 'LeanLab.BS2022GRH.corollary1_of' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9073/9077] Built LeanLab.BS2022GRH.Theorem3LiPV (22s)
+info: LeanLab/BS2022GRH/Theorem3LiPV.lean:92:0: 'LeanLab.BS2022GRH.cbrt_ge_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Theorem3LiPV.lean:93:0: 'LeanLab.BS2022GRH.one_le_UN' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Theorem3LiPV.lean:94:0: 'LeanLab.BS2022GRH.theorem3_of_liPV' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Theorem3LiPV.lean:95:0: 'LeanLab.BS2022GRH.corollary1_of_liPV' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Theorem3LiPV.lean:96:0: 'LeanLab.BS2022GRH.theorem3_of_nat' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9074/9077] Built LeanLab.BS2022GRH.U7153Theorem3 (20s)
+info: LeanLab/BS2022GRH/U7153Theorem3.lean:46:0: 'LeanLab.BS2022GRH.two_pow_24_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/U7153Theorem3.lean:47:0: 'LeanLab.BS2022GRH.theorem3_of_nat_L10' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9075/9077] Built LeanLab.BS2022GRH.U7154UN (24s)
+info: LeanLab/BS2022GRH/U7154UN.lean:108:0: 'LeanLab.BS2022GRH.UNfull_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/U7154UN.lean:109:0: 'LeanLab.BS2022GRH.two_fifths_le_UNfull' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/U7154UN.lean:110:0: 'LeanLab.BS2022GRH.theorem3_of_U25' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/U7154UN.lean:111:0: 'LeanLab.BS2022GRH.theorem3_of_nat_full' depends on axioms: [propext, Classical.choice, Quot.sound]
+✖ [9076/9077] Building LeanLab.BS2022GRH.ChenThresholdGRH (26s)
+trace: .> LEAN_PATH=/home/claude/lab/.lake/packages/Cli/.lake/build/lib/lean:/home/claude/lab/.lake/packages/batteries/.lake/build/lib/lean:/home/claude/lab/.lake/packages/Qq/.lake/build/lib/lean:/home/claude/lab/.lake/packages/aesop/.lake/build/lib/lean:/home/claude/lab/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/claude/lab/.lake/packages/importGraph/.lake/build/lib/lean:/home/claude/lab/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/claude/lab/.lake/packages/plausible/.lake/build/lib/lean:/home/claude/lab/.lake/packages/mathlib/.lake/build/lib/lean:/home/claude/lab/.lake/build/lib/lean /root/.elan/toolchains/leanprover--lean4---v4.35.0/bin/lean /home/claude/lab/LeanLab/BS2022GRH/ChenThresholdGRH.lean -o /home/claude/lab/.lake/build/lib/lean/LeanLab/BS2022GRH/ChenThresholdGRH.olean -i /home/claude/lab/.lake/build/lib/lean/LeanLab/BS2022GRH/ChenThresholdGRH.ilean -c /home/claude/lab/.lake/build/ir/LeanLab/BS2022GRH/ChenThresholdGRH.c --setup /home/claude/lab/.lake/build/ir/LeanLab/BS2022GRH/ChenThresholdGRH.setup.json --json
+warning: LeanLab/BS2022GRH/ChenThresholdGRH.lean:463:8: declaration uses `sorry`
+error: LeanLab/BS2022GRH/ChenThresholdGRH.lean:490:4: type expected, got
+  (AlmostPrimeSums.bordignonStarichkova_GRH : DERZ1997.GRH → ChenExplicit.ChenAbove (rexp (rexp 15.85)))
+info: LeanLab/BS2022GRH/ChenThresholdGRH.lean:496:0: 'LeanLab.BS2022GRH.ChenThresholdGRH.lemma9J_holds' depends on axioms: [propext, choice, Quot.sound]
+info: LeanLab/BS2022GRH/ChenThresholdGRH.lean:497:0: 'LeanLab.BS2022GRH.ChenThresholdGRH.section55_step' depends on axioms: [propext, choice, Quot.sound]
+info: LeanLab/BS2022GRH/ChenThresholdGRH.lean:498:0: 'LeanLab.BS2022GRH.ChenThresholdGRH.rep_of_pi2'' depends on axioms: [propext, choice, Quot.sound]
+info: LeanLab/BS2022GRH/ChenThresholdGRH.lean:499:0: 'LeanLab.BS2022GRH.ChenThresholdGRH.sum_Qset_filter' depends on axioms: [propext, choice, Quot.sound]
+info: LeanLab/BS2022GRH/ChenThresholdGRH.lean:500:0: 'LeanLab.BS2022GRH.ChenThresholdGRH.X2_ranges' depends on axioms: [propext, choice, Quot.sound]
+info: LeanLab/BS2022GRH/ChenThresholdGRH.lean:501:0: 'LeanLab.BS2022GRH.ChenThresholdGRH.cond19_13375' depends on axioms: [propext, choice, Quot.sound]
+info: LeanLab/BS2022GRH/ChenThresholdGRH.lean:502:0: 'LeanLab.BS2022GRH.ChenThresholdGRH.cond25_13375' depends on axioms: [propext, choice, Quot.sound]
+info: LeanLab/BS2022GRH/ChenThresholdGRH.lean:503:0: 'LeanLab.BS2022GRH.ChenThresholdGRH.threshold_nonvacuous' depends on axioms: [propext, choice, Quot.sound]
+info: LeanLab/BS2022GRH/ChenThresholdGRH.lean:504:0: 'LeanLab.BS2022GRH.ChenThresholdGRH.error_13375' depends on axioms: [propext, choice, Quot.sound]
+info: LeanLab/BS2022GRH/ChenThresholdGRH.lean:505:0: 'LeanLab.BS2022GRH.ChenThresholdGRH.chenThreshold13375_of_leaves' depends on axioms: [propext, choice, Quot.sound]
+info: LeanLab/BS2022GRH/ChenThresholdGRH.lean:506:0: 'LeanLab.BS2022GRH.ChenThresholdGRH.theorems567_of_inputs' depends on axioms: [propext, sorryAx, choice, Quot.sound]
+info: LeanLab/BS2022GRH/ChenThresholdGRH.lean:507:0: 'LeanLab.BS2022GRH.ChenThresholdGRH.chenThreshold13375_of_basic' depends on axioms: [propext,
+ sorryAx,
+ choice,
+ Quot.sound]
+info: LeanLab/BS2022GRH/ChenThresholdGRH.lean:508:0: 'LeanLab.BS2022GRH.ChenThresholdGRH.omega_of_sqfree' depends on axioms: [propext, choice, Quot.sound]
+info: LeanLab/BS2022GRH/ChenThresholdGRH.lean:509:0: 'LeanLab.BS2022GRH.ChenThresholdGRH.corollaryOneJ_of_threshold' depends on axioms: [propext, choice, Quot.sound]
+error: LeanLab/BS2022GRH/ChenThresholdGRH.lean:510:14: Unknown constant `bsGRH_of_threshold`
+Some required targets logged failures:
+- LeanLab.BS2022GRH.ChenThresholdGRH
+error: build failed
+EXIT 1 for LeanLab.BS2022GRH.Cert1567, 738 s
+STOP at LeanLab.BS2022GRH.Cert1567
+== done Tue Oct 27 09:32:58 UTC 2026
+== U-1575 build, started Tue Oct 27 09:36:45 UTC 2026
+== lake build LeanLab.ChebyshevExplicit.Psi30Quadratic
+⚠ [2882/2892] Replayed LeanLab.ChebyshevExplicit.Psi30
+warning: LeanLab/ChebyshevExplicit/Psi30.lean: imports `Mathlib.NumberTheory.Chebyshev` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: LeanLab/ChebyshevExplicit/Psi30.lean: imports `Mathlib.Analysis.SpecialFunctions.Log.Sum` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: LeanLab/ChebyshevExplicit/Psi30.lean: imports `Mathlib.Data.Nat.Choose.Factorization` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: LeanLab/ChebyshevExplicit/Psi30.lean: imports `Mathlib.Analysis.Complex.ExponentialBounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [2884/2892] Built LeanLab.ChebyshevExplicit.Psi30Upper (9.6s)
+✔ [2885/2892] Built LeanLab.ChebyshevExplicit.PiUpper (3.1s)
+⚠ [2886/2892] Built LeanLab.ChebyshevExplicit.PiUpperSharp (3.4s)
+warning: LeanLab/ChebyshevExplicit/PiUpperSharp.lean: imports `Mathlib.Analysis.SpecialFunctions.Integrals.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [2887/2892] Built LeanLab.ChebyshevExplicit.SharperConstants (2.7s)
+⚠ [2888/2892] Built LeanLab.ChebyshevExplicit.Psi30Refined (6.8s)
+warning: LeanLab/ChebyshevExplicit/Psi30Refined.lean:34:34: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: LeanLab/ChebyshevExplicit/Psi30Refined.lean:34:34: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2889/2892] Built LeanLab.ChebyshevExplicit.LogFactorialHalf (4.2s)
+warning: LeanLab/ChebyshevExplicit/LogFactorialHalf.lean: imports `Mathlib.Analysis.Real.Pi.Bounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [2890/2892] Built LeanLab.ChebyshevExplicit.ComboHalf (3.5s)
+✔ [2891/2892] Built LeanLab.ChebyshevExplicit.Psi30Half (8.1s)
+✔ [2892/2892] Built LeanLab.ChebyshevExplicit.Psi30Quadratic (5.5s)
+Build completed successfully (2892 jobs).
+EXIT 0 for LeanLab.ChebyshevExplicit.Psi30Quadratic, 52 s
+== lake build LeanLab.BS2022GRH.Cert1575Defs
+✔ [2/2] Built LeanLab.BS2022GRH.Cert1575Defs (398ms)
+Build completed successfully (2 jobs).
+EXIT 0 for LeanLab.BS2022GRH.Cert1575Defs, 2 s
+== lake build LeanLab.BS2022GRH.Cert1575W00
+✔ [3/3] Built LeanLab.BS2022GRH.Cert1575W00 (458ms)
+Build completed successfully (3 jobs).
+EXIT 0 for LeanLab.BS2022GRH.Cert1575W00, 1 s
+== lake build LeanLab.BS2022GRH.Cert1575W01
+✔ [3/3] Built LeanLab.BS2022GRH.Cert1575W01 (18s)
+Build completed successfully (3 jobs).
+EXIT 0 for LeanLab.BS2022GRH.Cert1575W01, 19 s
+== lake build LeanLab.BS2022GRH.Cert1575W02
+✔ [3/3] Built LeanLab.BS2022GRH.Cert1575W02 (18s)
+Build completed successfully (3 jobs).
+EXIT 0 for LeanLab.BS2022GRH.Cert1575W02, 19 s
+== lake build LeanLab.BS2022GRH.Cert1575W03
+✔ [3/3] Built LeanLab.BS2022GRH.Cert1575W03 (17s)
+Build completed successfully (3 jobs).
+EXIT 0 for LeanLab.BS2022GRH.Cert1575W03, 19 s
+== lake build LeanLab.BS2022GRH.Cert1575W04
+✔ [3/3] Built LeanLab.BS2022GRH.Cert1575W04 (18s)
+Build completed successfully (3 jobs).
+EXIT 0 for LeanLab.BS2022GRH.Cert1575W04, 19 s
+== lake build LeanLab.BS2022GRH.Cert1575W05
+✔ [3/3] Built LeanLab.BS2022GRH.Cert1575W05 (18s)
+Build completed successfully (3 jobs).
+EXIT 0 for LeanLab.BS2022GRH.Cert1575W05, 19 s
+== lake build LeanLab.BS2022GRH.Cert1575W06
+✔ [3/3] Built LeanLab.BS2022GRH.Cert1575W06 (17s)
+Build completed successfully (3 jobs).
+EXIT 0 for LeanLab.BS2022GRH.Cert1575W06, 19 s
+== lake build LeanLab.BS2022GRH.Cert1575W07
+✔ [3/3] Built LeanLab.BS2022GRH.Cert1575W07 (17s)
+Build completed successfully (3 jobs).
+EXIT 0 for LeanLab.BS2022GRH.Cert1575W07, 18 s
+== lake build LeanLab.BS2022GRH.Cert1575W08
+✔ [3/3] Built LeanLab.BS2022GRH.Cert1575W08 (17s)
+Build completed successfully (3 jobs).
+EXIT 0 for LeanLab.BS2022GRH.Cert1575W08, 18 s
+== lake build LeanLab.BS2022GRH.Cert1575W09
+✔ [3/3] Built LeanLab.BS2022GRH.Cert1575W09 (18s)
+Build completed successfully (3 jobs).
+EXIT 0 for LeanLab.BS2022GRH.Cert1575W09, 19 s
+== lake build LeanLab.BS2022GRH.Cert1575W10
+✔ [3/3] Built LeanLab.BS2022GRH.Cert1575W10 (17s)
+Build completed successfully (3 jobs).
+EXIT 0 for LeanLab.BS2022GRH.Cert1575W10, 18 s
+== lake build LeanLab.BS2022GRH.Cert1575
+⚠ [2882/2905] Replayed LeanLab.ChebyshevExplicit.Psi30
+warning: LeanLab/ChebyshevExplicit/Psi30.lean: imports `Mathlib.NumberTheory.Chebyshev` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: LeanLab/ChebyshevExplicit/Psi30.lean: imports `Mathlib.Analysis.SpecialFunctions.Log.Sum` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: LeanLab/ChebyshevExplicit/Psi30.lean: imports `Mathlib.Data.Nat.Choose.Factorization` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: LeanLab/ChebyshevExplicit/Psi30.lean: imports `Mathlib.Analysis.Complex.ExponentialBounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [2885/2905] Replayed LeanLab.ChebyshevExplicit.PiUpperSharp
+warning: LeanLab/ChebyshevExplicit/PiUpperSharp.lean: imports `Mathlib.Analysis.SpecialFunctions.Integrals.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [2887/2905] Replayed LeanLab.ChebyshevExplicit.Psi30Refined
+warning: LeanLab/ChebyshevExplicit/Psi30Refined.lean:34:34: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: LeanLab/ChebyshevExplicit/Psi30Refined.lean:34:34: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2889/2905] Replayed LeanLab.ChebyshevExplicit.LogFactorialHalf
+warning: LeanLab/ChebyshevExplicit/LogFactorialHalf.lean: imports `Mathlib.Analysis.Real.Pi.Bounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✖ [2905/2905] Building LeanLab.BS2022GRH.Cert1575 (8.2s)
+trace: .> LEAN_PATH=/home/claude/lab/.lake/packages/Cli/.lake/build/lib/lean:/home/claude/lab/.lake/packages/batteries/.lake/build/lib/lean:/home/claude/lab/.lake/packages/Qq/.lake/build/lib/lean:/home/claude/lab/.lake/packages/aesop/.lake/build/lib/lean:/home/claude/lab/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/claude/lab/.lake/packages/importGraph/.lake/build/lib/lean:/home/claude/lab/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/claude/lab/.lake/packages/plausible/.lake/build/lib/lean:/home/claude/lab/.lake/packages/mathlib/.lake/build/lib/lean:/home/claude/lab/.lake/build/lib/lean /root/.elan/toolchains/leanprover--lean4---v4.35.0/bin/lean /home/claude/lab/LeanLab/BS2022GRH/Cert1575.lean -o /home/claude/lab/.lake/build/lib/lean/LeanLab/BS2022GRH/Cert1575.olean -i /home/claude/lab/.lake/build/lib/lean/LeanLab/BS2022GRH/Cert1575.ilean -c /home/claude/lab/.lake/build/ir/LeanLab/BS2022GRH/Cert1575.c --setup /home/claude/lab/.lake/build/ir/LeanLab/BS2022GRH/Cert1575.setup.json --json
+error: LeanLab/BS2022GRH/Cert1575.lean:54:29: Ambiguous term
+  inner
+Possible interpretations:
+  Cert1575Defs.inner : ℕ → ℕ → ℕ → ℕ → ℕ → ℕ
+  
+  Inner.inner : (𝕜 : Type ?u.20) → {E : Type ?u.19} → [self : Inner 𝕜 E] → E → E → 𝕜
+error: LeanLab/BS2022GRH/Cert1575.lean:54:9: unsolved goals
+case zero
+F M n s : ℕ
+⊢ Cert1575Defs.inner F M 0 n s = s
+error: LeanLab/BS2022GRH/Cert1575.lean:111:43: failed to prove strict positivity, but it would be possible to prove nonnegativity if desired
+warning: LeanLab/BS2022GRH/Cert1575.lean:128:40: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: LeanLab/BS2022GRH/Cert1575.lean:128:44: Unused tactic linter: `ring` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: LeanLab/BS2022GRH/Cert1575.lean:128:44: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+error: LeanLab/BS2022GRH/Cert1575.lean:164:29: unsolved goals
+case hdb
+m S B K lo hi : ℕ
+h : outer (fac m) (10 ^ 20) S B K lo 0 = true
+h6 : lo % 6 = 1
+h7 : 7 ≤ lo
+hm : m < lo
+hhi : lo + 6 * (B * K) = hi
+hs : 0 + T (fac m) (10 ^ 20) (B * K) lo ≤ S
+hw : ∑ n ∈ Ico lo hi, a n ≤ ↑(T (fac m) (10 ^ 20) (B * K) lo) / ↑(10 ^ 20)
+hs' : T (fac m) (10 ^ 20) (B * K) lo ≤ S
+this : ↑(T (fac m) 100000000000000000000 (B * K) lo) ≤ ↑S
+⊢ 10 ^ 20 ≤ 100000000000000000000
+error: LeanLab/BS2022GRH/Cert1575.lean:288:2: linarith failed to find a contradiction
+hψ : 0.9212 * 9003000 - 5 * log 9003000 ≤ ψ 9003000
+hd : ψ 9003000 - θ 9003000 ≤ 2 * √9003000 * log 9003000
+hl : log ↑9003000 ≤ 17
+hl0 : 0 ≤ log ↑9003000
+hsq : √↑9003000 ≤ 3001
+hsq0 : 0 ≤ √↑9003000
+hp : √9003000 * log 9003000 ≤ 3001 * 17
+a✝ : θ 9003000 < 8191444
+⊢ False
+failed
+warning: LeanLab/BS2022GRH/Cert1575.lean:303:59: Unused tactic linter: `push_cast` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+info: LeanLab/BS2022GRH/Cert1575.lean:315:82: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+error: LeanLab/BS2022GRH/Cert1575.lean:315:6: unsolved goals
+n : ℕ
+hn : 9003001 ≤ n
+hn' : 9003001 ≤ ↑n
+hl : 16 ≤ log (↑n + 1)
+hpos : 0 < ↑n
+e : 1 / ↑n - 1 / (↑n + 1) = 1 / (↑n * (↑n + 1))
+⊢ (↑n + ↑n ^ 2)⁻¹ * (1 / 16) = (↑n * 16 + ↑n ^ 2 * 16)⁻¹
+error: LeanLab/BS2022GRH/Cert1575.lean:352:4: linarith failed to find a contradiction
+case succ
+C θ₀ : ℝ
+hC : 0 ≤ C
+hU : ∀ (n : ℕ), 9003001 ≤ n → θ ↑n - θ ↑9003000 ≤ C * ↑n - θ₀
+k : ℕ
+N : ℕ := 9003001 + k
+ih :
+  ∑ n ∈ Ico 9003001 (N + 1), a n + (C * ↑N - θ₀ - (θ ↑N - θ ↑9003000)) * g N ≤
+    (C * 9003001 - θ₀) * g 9003001 + C / 16 * (1 / 9003001 - 1 / ↑N)
+hN : N = 9003001 + k
+hN2 : 2 ≤ N
+hgN : g (N + 1) ≤ g N
+hgle : g (N + 1) ≤ 1 / 16 * (1 / ↑N - 1 / (↑N + 1))
+hUN : θ ↑N - θ ↑9003000 ≤ C * ↑N - θ₀
+hg1 : 0 ≤ g (N + 1)
+hcast : ↑(N + 1) = ↑N + 1
+key : 0 ≤ (C * ↑N - θ₀ - (θ ↑N - θ ↑9003000)) * (g N - g (N + 1))
+hCg : C * g (N + 1) ≤ C / 16 * (1 / ↑N - 1 / (↑N + 1))
+a✝ :
+  (C * 9003001 - θ₀) * g 9003001 + C / 16 * (1 / 9003001 - 1 / (↑N + 1)) <
+    ∑ k ∈ Ico 9003001 (N + 1), a k + (θ (↑N + 1) - θ ↑N) * g (N + 1) +
+      (C * (↑N + 1) - θ₀ - (θ (↑N + 1) - θ ↑9003000)) * g (N + 1)
+⊢ False
+failed
+error: LeanLab/BS2022GRH/Cert1575.lean:363:4: linarith failed to find a contradiction
+k : ℕ
+hθ0 : 8191444 ≤ θ ↑9003000
+n : ℕ
+hn : 9003001 ≤ n
+this : 9000000 ≤ ↑n
+a✝ : 89 / 80 * ↑n - 8191444 < θ ↑n - θ ↑9003000
+⊢ False
+failed
+error: LeanLab/BS2022GRH/Cert1575.lean:409:31: unsolved goals
+u : Finset { p // Nat.Prime p ∧ 1500 ≤ ↑p }
+X : ℕ := 9003001 + u.sup fun x ↦ ↑x
+hX : X = 9003001 + u.sup fun x ↦ ↑x
+himg : ∑ x ∈ u, 1 / ↑↑x ^ 2 = ∑ n ∈ image (fun x ↦ ↑x) u, a n
+x : { p // Nat.Prime p ∧ 1500 ≤ ↑p }
+hx : x ∈ u
+h1 : 1500 ≤ ↑↑x
+h1' : 1500 ≤ ↑x
+h : ↑x = 1500
+this : Nat.Prime 1500
+⊢ False
+info: LeanLab/BS2022GRH/Cert1575.lean:443:0: 'LeanLab.BS2022GRH.Cert1575.head_le' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Cert1575.lean:444:0: 'LeanLab.BS2022GRH.Cert1575.tail_le' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Cert1575.lean:445:0: 'LeanLab.BS2022GRH.Cert1575.primeSum_le' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Cert1575.lean:446:0: 'LeanLab.BS2022GRH.Cert1575.eps1500_proved' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+Some required targets logged failures:
+- LeanLab.BS2022GRH.Cert1575
+error: build failed
+EXIT 1 for LeanLab.BS2022GRH.Cert1575, 10 s
+STOP at LeanLab.BS2022GRH.Cert1575
+== done Tue Oct 27 09:40:57 UTC 2026
+== round 2, lake build LeanLab.BS2022GRH.Cert1575 Tue Oct 27 09:44:31 UTC 2026
+⚠ [2882/2905] Replayed LeanLab.ChebyshevExplicit.Psi30
+warning: LeanLab/ChebyshevExplicit/Psi30.lean: imports `Mathlib.NumberTheory.Chebyshev` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: LeanLab/ChebyshevExplicit/Psi30.lean: imports `Mathlib.Analysis.SpecialFunctions.Log.Sum` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: LeanLab/ChebyshevExplicit/Psi30.lean: imports `Mathlib.Data.Nat.Choose.Factorization` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: LeanLab/ChebyshevExplicit/Psi30.lean: imports `Mathlib.Analysis.Complex.ExponentialBounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [2885/2905] Replayed LeanLab.ChebyshevExplicit.PiUpperSharp
+warning: LeanLab/ChebyshevExplicit/PiUpperSharp.lean: imports `Mathlib.Analysis.SpecialFunctions.Integrals.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [2887/2905] Replayed LeanLab.ChebyshevExplicit.Psi30Refined
+warning: LeanLab/ChebyshevExplicit/Psi30Refined.lean:34:34: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: LeanLab/ChebyshevExplicit/Psi30Refined.lean:34:34: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2889/2905] Replayed LeanLab.ChebyshevExplicit.LogFactorialHalf
+warning: LeanLab/ChebyshevExplicit/LogFactorialHalf.lean: imports `Mathlib.Analysis.Real.Pi.Bounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✖ [2905/2905] Building LeanLab.BS2022GRH.Cert1575 (11s)
+trace: .> LEAN_PATH=/home/claude/lab/.lake/packages/Cli/.lake/build/lib/lean:/home/claude/lab/.lake/packages/batteries/.lake/build/lib/lean:/home/claude/lab/.lake/packages/Qq/.lake/build/lib/lean:/home/claude/lab/.lake/packages/aesop/.lake/build/lib/lean:/home/claude/lab/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/claude/lab/.lake/packages/importGraph/.lake/build/lib/lean:/home/claude/lab/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/claude/lab/.lake/packages/plausible/.lake/build/lib/lean:/home/claude/lab/.lake/packages/mathlib/.lake/build/lib/lean:/home/claude/lab/.lake/build/lib/lean /root/.elan/toolchains/leanprover--lean4---v4.35.0/bin/lean /home/claude/lab/LeanLab/BS2022GRH/Cert1575.lean -o /home/claude/lab/.lake/build/lib/lean/LeanLab/BS2022GRH/Cert1575.olean -i /home/claude/lab/.lake/build/lib/lean/LeanLab/BS2022GRH/Cert1575.ilean -c /home/claude/lab/.lake/build/ir/LeanLab/BS2022GRH/Cert1575.c --setup /home/claude/lab/.lake/build/ir/LeanLab/BS2022GRH/Cert1575.setup.json --json
+warning: LeanLab/BS2022GRH/Cert1575.lean:304:59: Unused tactic linter: `push_cast` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+error: LeanLab/BS2022GRH/Cert1575.lean:360:4: linarith failed to find a contradiction
+case succ
+C θ₀ : ℝ
+hC : 0 ≤ C
+hU : ∀ (n : ℕ), 9003001 ≤ n → θ ↑n - θ ↑9003000 ≤ C * ↑n - θ₀
+k : ℕ
+N : ℕ := 9003001 + k
+ih :
+  ∑ n ∈ Ico 9003001 (N + 1), a n + (C * ↑N - θ₀ - (θ ↑N - θ ↑9003000)) * g N ≤
+    (C * 9003001 - θ₀) * g 9003001 + C / 16 * (1 / 9003001 - 1 / ↑N)
+hN : N = 9003001 + k
+hN2 : 2 ≤ N
+hgN : g (N + 1) ≤ g N
+hgle : g (N + 1) ≤ 1 / 16 * (1 / ↑N - 1 / (↑N + 1))
+hUN : θ ↑N - θ ↑9003000 ≤ C * ↑N - θ₀
+hg1 : 0 ≤ g (N + 1)
+hcast : ↑(N + 1) = ↑N + 1
+key : 0 ≤ (C * ↑N - θ₀ - (θ ↑N - θ ↑9003000)) * (g N - g (N + 1))
+hCg : C * g (N + 1) ≤ C / 16 * (1 / ↑N - 1 / (↑N + 1))
+e :
+  (θ (↑N + 1) - θ ↑N) * g (N + 1) + (C * (↑N + 1) - θ₀ - (θ (↑N + 1) - θ ↑9003000)) * g (N + 1) =
+    (C * ↑N - θ₀ - (θ ↑N - θ ↑9003000)) * g N - (C * ↑N - θ₀ - (θ ↑N - θ ↑9003000)) * (g N - g (N + 1)) + C * g (N + 1)
+e3 : C / 16 * (1 / 9003001 - 1 / ↑N) + C / 16 * (1 / ↑N - 1 / (↑N + 1)) = C / 16 * (1 / 9003001 - 1 / (↑N + 1))
+a✝ :
+  (C * 9003001 - θ₀) * g 9003001 + C / 16 * (1 / 9003001 - 1 / (↑N + 1)) <
+    ∑ k ∈ Ico 9003001 (N + 1), a k + (θ (↑N + 1) - θ ↑N) * g (N + 1) +
+      (C * (↑N + 1) - θ₀ - (θ (↑N + 1) - θ ↑9003000)) * g (N + 1)
+⊢ False
+failed
+error: LeanLab/BS2022GRH/Cert1575.lean:373:4: linarith failed to find a contradiction
+k : ℕ
+hθ0 : 8191444 ≤ θ ↑9003000
+n : ℕ
+hn : 9003001 ≤ n
+this : 9000000 ≤ ↑n
+h1 : θ ↑n ≤ 89 / 80 * ↑n
+h2 : 8191444 ≤ θ ↑9003000
+a✝ : 89 / 80 * ↑n - 8191444 < θ ↑n - θ ↑9003000
+⊢ False
+failed
+error: LeanLab/BS2022GRH/Cert1575.lean:420:65: unsolved goals
+u : Finset { p // Nat.Prime p ∧ 1500 ≤ ↑p }
+X : ℕ := 9003001 + u.sup fun x ↦ ↑x
+hX : X = 9003001 + u.sup fun x ↦ ↑x
+himg : ∑ x ∈ u, 1 / ↑↑x ^ 2 = ∑ n ∈ image (fun x ↦ ↑x) u, a n
+x : { p // Nat.Prime p ∧ 1500 ≤ ↑p }
+hx : x ∈ u
+h1 : 1500 ≤ ↑↑x
+h1' : 1500 ≤ ↑x
+h : ↑x = 1500
+this : Nat.Prime 1500
+⊢ ¬Nat.Prime 1500
+info: LeanLab/BS2022GRH/Cert1575.lean:453:0: 'LeanLab.BS2022GRH.Cert1575.head_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Cert1575.lean:454:0: 'LeanLab.BS2022GRH.Cert1575.tail_le' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Cert1575.lean:455:0: 'LeanLab.BS2022GRH.Cert1575.primeSum_le' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Cert1575.lean:456:0: 'LeanLab.BS2022GRH.Cert1575.eps1500_proved' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+Some required targets logged failures:
+- LeanLab.BS2022GRH.Cert1575
+error: build failed
+EXIT 1 for LeanLab.BS2022GRH.Cert1575 round 2
+== round 3, lake build LeanLab.BS2022GRH.Cert1575 Tue Oct 27 09:46:38 UTC 2026
+⚠ [2882/2905] Replayed LeanLab.ChebyshevExplicit.Psi30
+warning: LeanLab/ChebyshevExplicit/Psi30.lean: imports `Mathlib.NumberTheory.Chebyshev` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: LeanLab/ChebyshevExplicit/Psi30.lean: imports `Mathlib.Analysis.SpecialFunctions.Log.Sum` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: LeanLab/ChebyshevExplicit/Psi30.lean: imports `Mathlib.Data.Nat.Choose.Factorization` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: LeanLab/ChebyshevExplicit/Psi30.lean: imports `Mathlib.Analysis.Complex.ExponentialBounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [2885/2905] Replayed LeanLab.ChebyshevExplicit.PiUpperSharp
+warning: LeanLab/ChebyshevExplicit/PiUpperSharp.lean: imports `Mathlib.Analysis.SpecialFunctions.Integrals.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [2887/2905] Replayed LeanLab.ChebyshevExplicit.Psi30Refined
+warning: LeanLab/ChebyshevExplicit/Psi30Refined.lean:34:34: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: LeanLab/ChebyshevExplicit/Psi30Refined.lean:34:34: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2889/2905] Replayed LeanLab.ChebyshevExplicit.LogFactorialHalf
+warning: LeanLab/ChebyshevExplicit/LogFactorialHalf.lean: imports `Mathlib.Analysis.Real.Pi.Bounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✖ [2905/2905] Building LeanLab.BS2022GRH.Cert1575 (7.0s)
+trace: .> LEAN_PATH=/home/claude/lab/.lake/packages/Cli/.lake/build/lib/lean:/home/claude/lab/.lake/packages/batteries/.lake/build/lib/lean:/home/claude/lab/.lake/packages/Qq/.lake/build/lib/lean:/home/claude/lab/.lake/packages/aesop/.lake/build/lib/lean:/home/claude/lab/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/claude/lab/.lake/packages/importGraph/.lake/build/lib/lean:/home/claude/lab/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/claude/lab/.lake/packages/plausible/.lake/build/lib/lean:/home/claude/lab/.lake/packages/mathlib/.lake/build/lib/lean:/home/claude/lab/.lake/build/lib/lean /root/.elan/toolchains/leanprover--lean4---v4.35.0/bin/lean /home/claude/lab/LeanLab/BS2022GRH/Cert1575.lean -o /home/claude/lab/.lake/build/lib/lean/LeanLab/BS2022GRH/Cert1575.olean -i /home/claude/lab/.lake/build/lib/lean/LeanLab/BS2022GRH/Cert1575.ilean -c /home/claude/lab/.lake/build/ir/LeanLab/BS2022GRH/Cert1575.c --setup /home/claude/lab/.lake/build/ir/LeanLab/BS2022GRH/Cert1575.setup.json --json
+warning: LeanLab/BS2022GRH/Cert1575.lean:304:59: Unused tactic linter: `push_cast` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+error: LeanLab/BS2022GRH/Cert1575.lean:343:8: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  θ ↑9003000
+in the target expression
+  a (N + 1) = (θ ↑(N + 1) - θ ↑N) * g (N + 1)
+
+case succ
+C θ₀ θH : ℝ
+hC : 0 ≤ C
+hθH : θ ↑9003000 = θH
+hU : ∀ (n : ℕ), 9003001 ≤ n → θ ↑n - θH ≤ C * ↑n - θ₀
+k : ℕ
+N : ℕ := 9003001 + k
+ih :
+  ∑ n ∈ Ico 9003001 (N + 1), a n + (C * ↑N - θ₀ - (θ ↑N - θH)) * g N ≤
+    (C * 9003001 - θ₀) * g 9003001 + C / 16 * (1 / 9003001 - 1 / ↑N)
+hN : N = 9003001 + k
+hN2 : 2 ≤ N
+hd : a (N + 1) = (θ ↑(N + 1) - θ ↑N) * g (N + 1)
+⊢ ∑ k ∈ Ico 9003001 (N + 1), a k + a (N + 1) + (C * ↑(N + 1) - θ₀ - (θ ↑(N + 1) - θH)) * g (N + 1) ≤
+    (C * 9003001 - θ₀) * g 9003001 + C / 16 * (1 / 9003001 - 1 / ↑(N + 1))
+info: LeanLab/BS2022GRH/Cert1575.lean:455:0: 'LeanLab.BS2022GRH.Cert1575.head_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Cert1575.lean:456:0: 'LeanLab.BS2022GRH.Cert1575.tail_le' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Cert1575.lean:457:0: 'LeanLab.BS2022GRH.Cert1575.primeSum_le' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Cert1575.lean:458:0: 'LeanLab.BS2022GRH.Cert1575.eps1500_proved' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+Some required targets logged failures:
+- LeanLab.BS2022GRH.Cert1575
+error: build failed
+EXIT 1 for LeanLab.BS2022GRH.Cert1575 round 3
+== round 4, lake build LeanLab.BS2022GRH.Cert1575 Tue Oct 27 09:46:53 UTC 2026
+⚠ [2882/2905] Replayed LeanLab.ChebyshevExplicit.Psi30
+warning: LeanLab/ChebyshevExplicit/Psi30.lean: imports `Mathlib.NumberTheory.Chebyshev` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: LeanLab/ChebyshevExplicit/Psi30.lean: imports `Mathlib.Analysis.SpecialFunctions.Log.Sum` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: LeanLab/ChebyshevExplicit/Psi30.lean: imports `Mathlib.Data.Nat.Choose.Factorization` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: LeanLab/ChebyshevExplicit/Psi30.lean: imports `Mathlib.Analysis.Complex.ExponentialBounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [2885/2905] Replayed LeanLab.ChebyshevExplicit.PiUpperSharp
+warning: LeanLab/ChebyshevExplicit/PiUpperSharp.lean: imports `Mathlib.Analysis.SpecialFunctions.Integrals.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [2887/2905] Replayed LeanLab.ChebyshevExplicit.Psi30Refined
+warning: LeanLab/ChebyshevExplicit/Psi30Refined.lean:34:34: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: LeanLab/ChebyshevExplicit/Psi30Refined.lean:34:34: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2889/2905] Replayed LeanLab.ChebyshevExplicit.LogFactorialHalf
+warning: LeanLab/ChebyshevExplicit/LogFactorialHalf.lean: imports `Mathlib.Analysis.Real.Pi.Bounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [2905/2905] Built LeanLab.BS2022GRH.Cert1575 (6.9s)
+warning: LeanLab/BS2022GRH/Cert1575.lean:304:59: Unused tactic linter: `push_cast` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+info: LeanLab/BS2022GRH/Cert1575.lean:453:0: 'LeanLab.BS2022GRH.Cert1575.head_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Cert1575.lean:454:0: 'LeanLab.BS2022GRH.Cert1575.tail_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Cert1575.lean:455:0: 'LeanLab.BS2022GRH.Cert1575.primeSum_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Cert1575.lean:456:0: 'LeanLab.BS2022GRH.Cert1575.eps1500_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (2905 jobs).
+EXIT 0 for LeanLab.BS2022GRH.Cert1575 round 4
+== lake build LeanLab.BS2022GRH.Cert1575Closed Tue Oct 27 09:47:12 UTC 2026
+⚠ [9046/9101] Replayed LeanLab.ChebyshevExplicit.Psi30
+warning: LeanLab/ChebyshevExplicit/Psi30.lean: imports `Mathlib.NumberTheory.Chebyshev` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: LeanLab/ChebyshevExplicit/Psi30.lean: imports `Mathlib.Analysis.SpecialFunctions.Log.Sum` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: LeanLab/ChebyshevExplicit/Psi30.lean: imports `Mathlib.Data.Nat.Choose.Factorization` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: LeanLab/ChebyshevExplicit/Psi30.lean: imports `Mathlib.Analysis.Complex.ExponentialBounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [9049/9101] Replayed LeanLab.ChebyshevExplicit.PiUpperSharp
+warning: LeanLab/ChebyshevExplicit/PiUpperSharp.lean: imports `Mathlib.Analysis.SpecialFunctions.Integrals.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [9051/9101] Replayed LeanLab.ChebyshevExplicit.Psi30Refined
+warning: LeanLab/ChebyshevExplicit/Psi30Refined.lean:34:34: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: LeanLab/ChebyshevExplicit/Psi30Refined.lean:34:34: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [9052/9101] Replayed LeanLab.ChebyshevExplicit.LogFactorialHalf
+warning: LeanLab/ChebyshevExplicit/LogFactorialHalf.lean: imports `Mathlib.Analysis.Real.Pi.Bounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [9068/9101] Replayed LeanLab.BS2022GRH.Cert1575
+warning: LeanLab/BS2022GRH/Cert1575.lean:304:59: Unused tactic linter: `push_cast` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+info: LeanLab/BS2022GRH/Cert1575.lean:453:0: 'LeanLab.BS2022GRH.Cert1575.head_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Cert1575.lean:454:0: 'LeanLab.BS2022GRH.Cert1575.tail_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Cert1575.lean:455:0: 'LeanLab.BS2022GRH.Cert1575.primeSum_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Cert1575.lean:456:0: 'LeanLab.BS2022GRH.Cert1575.eps1500_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [9070/9101] Replayed LeanLab.BS2022GRH.Params
+warning: LeanLab/BS2022GRH/Params.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [9071/9101] Replayed LeanLab.ChenExplicit.Statements
+warning: LeanLab/ChenExplicit/Statements.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [9075/9101] Replayed LeanLab.ChenExplicit.Yamada
+warning: LeanLab/ChenExplicit/Yamada.lean:127:41: Variable name `he0` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _he0
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [9078/9101] Replayed LeanLab.ChenExplicit.GammaBounds
+warning: LeanLab/ChenExplicit/GammaBounds.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [9079/9101] Replayed LeanLab.BS2022GRH.Constants
+warning: LeanLab/BS2022GRH/Constants.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: LeanLab/BS2022GRH/Constants.lean:217:23: Variable name `h0` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _h0
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [9080/9101] Replayed LeanLab.BS2022GRH.QG
+warning: LeanLab/BS2022GRH/QG.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [9081/9101] Replayed LeanLab.ChenExplicit.TwinCNumeric
+warning: LeanLab/ChenExplicit/TwinCNumeric.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: LeanLab/ChenExplicit/TwinCNumeric.lean:124:19: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: LeanLab/ChenExplicit/TwinCNumeric.lean:130:63: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: LeanLab/ChenExplicit/TwinCNumeric.lean:134:34: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+ℹ [9082/9101] Replayed LeanLab.BS2022GRH.Thm5Factor
+info: LeanLab/BS2022GRH/Thm5Factor.lean:142:0: 'LeanLab.BS2022GRH.theorem3_main_thm5' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Thm5Factor.lean:143:0: 'LeanLab.BS2022GRH.K3_first' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Thm5Factor.lean:144:0: 'LeanLab.BS2022GRH.delta_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Thm5Factor.lean:145:0: 'LeanLab.BS2022GRH.thm5Bracket_ge' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Thm5Factor.lean:146:0: 'LeanLab.BS2022GRH.thm5Bracket_ge_params' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [9083/9101] Replayed LeanLab.BS2022GRH.Thm6Factor
+warning: LeanLab/BS2022GRH/Thm6Factor.lean:60:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+info: LeanLab/BS2022GRH/Thm6Factor.lean:288:0: 'LeanLab.BS2022GRH.kA_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Thm6Factor.lean:289:0: 'LeanLab.BS2022GRH.e2h_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Thm6Factor.lean:290:0: 'LeanLab.BS2022GRH.rX_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Thm6Factor.lean:291:0: 'LeanLab.BS2022GRH.thm6Main_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Thm6Factor.lean:292:0: 'LeanLab.BS2022GRH.l1T6_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Thm6Factor.lean:293:0: 'LeanLab.BS2022GRH.l2T6_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Thm6Factor.lean:294:0: 'LeanLab.BS2022GRH.l3T6_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Thm6Factor.lean:295:0: 'LeanLab.BS2022GRH.thm6Bracket_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Thm6Factor.lean:296:0: 'LeanLab.BS2022GRH.K3_second' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Thm6Factor.lean:297:0: 'LeanLab.BS2022GRH.thm6Bracket_le_params' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Thm6Factor.lean:298:0: 'LeanLab.BS2022GRH.theorem3_main_thm56' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [9084/9101] Replayed LeanLab.BS2022GRH.Thm7Factor
+warning: LeanLab/BS2022GRH/Thm7Factor.lean:249:57: Variable name `hα0` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hα0
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: LeanLab/BS2022GRH/Thm7Factor.lean:353:0: 'LeanLab.BS2022GRH.integral_inv_log_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Thm7Factor.lean:354:0: 'LeanLab.BS2022GRH.t_exp_neg_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Thm7Factor.lean:355:0: 'LeanLab.BS2022GRH.li_factor_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Thm7Factor.lean:356:0: 'LeanLab.BS2022GRH.a7_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Thm7Factor.lean:357:0: 'LeanLab.BS2022GRH.d7_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Thm7Factor.lean:358:0: 'LeanLab.BS2022GRH.e7_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Thm7Factor.lean:359:0: 'LeanLab.BS2022GRH.thm7Bracket_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Thm7Factor.lean:360:0: 'LeanLab.BS2022GRH.K3_third' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Thm7Factor.lean:361:0: 'LeanLab.BS2022GRH.theorem3_main_thm567' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9085/9101] Replayed LeanLab.BS2022GRH.Lemma9M
+info: LeanLab/BS2022GRH/Lemma9M.lean:310:0: 'LeanLab.BS2022GRH.m9T3' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Lemma9M.lean:311:0: 'LeanLab.BS2022GRH.m9T4' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Lemma9M.lean:312:0: 'LeanLab.BS2022GRH.m9T5' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Lemma9M.lean:313:0: 'LeanLab.BS2022GRH.mL9_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Lemma9M.lean:314:0: 'LeanLab.BS2022GRH.qG_ge' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Lemma9M.lean:315:0: 'LeanLab.BS2022GRH.m_at' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Lemma9M.lean:316:0: 'LeanLab.BS2022GRH.theorem3_main_thm567_m' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9086/9101] Replayed LeanLab.BS2022GRH.Theorem3
+info: LeanLab/BS2022GRH/Theorem3.lean:128:0: 'LeanLab.BS2022GRH.exp_ge_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Theorem3.lean:129:0: 'LeanLab.BS2022GRH.error_terms' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Theorem3.lean:130:0: 'LeanLab.BS2022GRH.theorem3_of' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Theorem3.lean:131:0: 'LeanLab.BS2022GRH.corollary1_of' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [9087/9101] Replayed LeanLab.BS2022GRH.LiPV
+warning: LeanLab/BS2022GRH/LiPV.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+info: LeanLab/BS2022GRH/LiPV.lean:224:0: 'LeanLab.BS2022GRH.gli_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/LiPV.lean:225:0: 'LeanLab.BS2022GRH.tendsto_liPart' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/LiPV.lean:226:0: 'LeanLab.BS2022GRH.liPV_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/LiPV.lean:227:0: 'LeanLab.BS2022GRH.liPV_two_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/LiPV.lean:228:0: 'LeanLab.BS2022GRH.liPV_eq_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/LiPV.lean:229:0: 'LeanLab.BS2022GRH.liPV_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9088/9101] Replayed LeanLab.BS2022GRH.Theorem3LiPV
+info: LeanLab/BS2022GRH/Theorem3LiPV.lean:92:0: 'LeanLab.BS2022GRH.cbrt_ge_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Theorem3LiPV.lean:93:0: 'LeanLab.BS2022GRH.one_le_UN' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Theorem3LiPV.lean:94:0: 'LeanLab.BS2022GRH.theorem3_of_liPV' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Theorem3LiPV.lean:95:0: 'LeanLab.BS2022GRH.corollary1_of_liPV' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Theorem3LiPV.lean:96:0: 'LeanLab.BS2022GRH.theorem3_of_nat' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [9089/9101] Replayed LeanLab.BS2022GRH.U7153Lemma10
+warning: LeanLab/BS2022GRH/U7153Lemma10.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: LeanLab/BS2022GRH/U7153Lemma10.lean:158:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: LeanLab/BS2022GRH/U7153Lemma10.lean:241:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: LeanLab/BS2022GRH/U7153Lemma10.lean:246:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: LeanLab/BS2022GRH/U7153Lemma10.lean:251:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: LeanLab/BS2022GRH/U7153Lemma10.lean:255:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: LeanLab/BS2022GRH/U7153Lemma10.lean:255:17: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: LeanLab/BS2022GRH/U7153Lemma10.lean:255:28: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: LeanLab/BS2022GRH/U7153Lemma10.lean:247:63: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: LeanLab/BS2022GRH/U7153Lemma10.lean:252:63: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: LeanLab/BS2022GRH/U7153Lemma10.lean:247:63: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: LeanLab/BS2022GRH/U7153Lemma10.lean:252:63: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: LeanLab/BS2022GRH/U7153Lemma10.lean:267:34: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: LeanLab/BS2022GRH/U7153Lemma10.lean:277:52: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: LeanLab/BS2022GRH/U7153Lemma10.lean:280:34: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: LeanLab/BS2022GRH/U7153Lemma10.lean:400:36: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: LeanLab/BS2022GRH/U7153Lemma10.lean:446:57: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: LeanLab/BS2022GRH/U7153Lemma10.lean:454:57: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+info: LeanLab/BS2022GRH/U7153Lemma10.lean:520:0: 'LeanLab.BS2022GRH.U7153.pointwise' depends on axioms: [propext, choice, Quot.sound]
+info: LeanLab/BS2022GRH/U7153Lemma10.lean:521:0: 'LeanLab.BS2022GRH.U7153.card_nsq_le' depends on axioms: [propext, choice, Quot.sound]
+info: LeanLab/BS2022GRH/U7153Lemma10.lean:522:0: 'LeanLab.BS2022GRH.U7153.card_T_le' depends on axioms: [propext, choice, Quot.sound]
+info: LeanLab/BS2022GRH/U7153Lemma10.lean:523:0: 'LeanLab.BS2022GRH.U7153.lemma10' depends on axioms: [propext, choice, Quot.sound]
+ℹ [9090/9101] Replayed LeanLab.BS2022GRH.U7153Theorem3
+info: LeanLab/BS2022GRH/U7153Theorem3.lean:46:0: 'LeanLab.BS2022GRH.two_pow_24_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/U7153Theorem3.lean:47:0: 'LeanLab.BS2022GRH.theorem3_of_nat_L10' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9091/9101] Replayed LeanLab.BS2022GRH.U7154UN
+info: LeanLab/BS2022GRH/U7154UN.lean:108:0: 'LeanLab.BS2022GRH.UNfull_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/U7154UN.lean:109:0: 'LeanLab.BS2022GRH.two_fifths_le_UNfull' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/U7154UN.lean:110:0: 'LeanLab.BS2022GRH.theorem3_of_U25' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/U7154UN.lean:111:0: 'LeanLab.BS2022GRH.theorem3_of_nat_full' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9092/9101] Replayed LeanLab.BS2022GRH.JournalMargin
+info: LeanLab/BS2022GRH/JournalMargin.lean:109:0: 'LeanLab.BS2022GRH.Journal.theorem3_journal_main' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [9093/9101] Replayed LeanLab.Helfgott2013.GammaFine
+warning: LeanLab/Helfgott2013/GammaFine.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+ℹ [9094/9101] Replayed LeanLab.BS2022GRH.JournalPositive
+info: LeanLab/BS2022GRH/JournalPositive.lean:148:0: 'LeanLab.BS2022GRH.Journal.theorem3_positive_main' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/JournalPositive.lean:149:0: 'LeanLab.BS2022GRH.Journal.conditions_13375' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/JournalPositive.lean:150:0: 'LeanLab.BS2022GRH.Journal.params_ok_13375' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9095/9101] Replayed LeanLab.BS2022GRH.RangeCheck13375
+info: LeanLab/BS2022GRH/RangeCheck13375.lean:114:0: 'LeanLab.BS2022GRH.Journal.lemma7_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/RangeCheck13375.lean:115:0: 'LeanLab.BS2022GRH.Journal.display25_first' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/RangeCheck13375.lean:116:0: 'LeanLab.BS2022GRH.Journal.display25_third' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/RangeCheck13375.lean:117:0: 'LeanLab.BS2022GRH.Journal.remark1_H' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/RangeCheck13375.lean:118:0: 'LeanLab.BS2022GRH.Journal.remark1_H_vacuity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/RangeCheck13375.lean:119:0: 'LeanLab.BS2022GRH.Journal.mono_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/RangeCheck13375.lean:120:0: 'LeanLab.BS2022GRH.Journal.mono_range_13375' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/RangeCheck13375.lean:121:0: 'LeanLab.BS2022GRH.Journal.sieve_ranges_13375' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [9096/9101] Replayed LeanLab.Common.Goldbach
+warning: LeanLab/Common/Goldbach.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: LeanLab/Common/Goldbach.lean:52:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: LeanLab/Common/Goldbach.lean:54:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: LeanLab/Common/Goldbach.lean:55:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: LeanLab/Common/Goldbach.lean:83:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: LeanLab/Common/Goldbach.lean:84:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: LeanLab/Common/Goldbach.lean:88:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [9097/9101] Replayed LeanLab.DERZ1997.Statements
+warning: LeanLab/DERZ1997/Statements.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: LeanLab/DERZ1997/Statements.lean:28:8: declaration uses `sorry`
+warning: LeanLab/DERZ1997/Statements.lean:33:8: declaration uses `sorry`
+warning: LeanLab/DERZ1997/Statements.lean:39:8: declaration uses `sorry`
+⚠ [9098/9101] Replayed LeanLab.AlmostPrimeSums.Statements
+warning: LeanLab/AlmostPrimeSums/Statements.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: LeanLab/AlmostPrimeSums/Statements.lean:29:8: declaration uses `sorry`
+warning: LeanLab/AlmostPrimeSums/Statements.lean:32:8: declaration uses `sorry`
+warning: LeanLab/AlmostPrimeSums/Statements.lean:35:8: declaration uses `sorry`
+✖ [9099/9101] Building LeanLab.BS2022GRH.ChenThresholdGRH (32s)
+trace: .> LEAN_PATH=/home/claude/lab/.lake/packages/Cli/.lake/build/lib/lean:/home/claude/lab/.lake/packages/batteries/.lake/build/lib/lean:/home/claude/lab/.lake/packages/Qq/.lake/build/lib/lean:/home/claude/lab/.lake/packages/aesop/.lake/build/lib/lean:/home/claude/lab/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/claude/lab/.lake/packages/importGraph/.lake/build/lib/lean:/home/claude/lab/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/claude/lab/.lake/packages/plausible/.lake/build/lib/lean:/home/claude/lab/.lake/packages/mathlib/.lake/build/lib/lean:/home/claude/lab/.lake/build/lib/lean /root/.elan/toolchains/leanprover--lean4---v4.35.0/bin/lean /home/claude/lab/LeanLab/BS2022GRH/ChenThresholdGRH.lean -o /home/claude/lab/.lake/build/lib/lean/LeanLab/BS2022GRH/ChenThresholdGRH.olean -i /home/claude/lab/.lake/build/lib/lean/LeanLab/BS2022GRH/ChenThresholdGRH.ilean -c /home/claude/lab/.lake/build/ir/LeanLab/BS2022GRH/ChenThresholdGRH.c --setup /home/claude/lab/.lake/build/ir/LeanLab/BS2022GRH/ChenThresholdGRH.setup.json --json
+warning: LeanLab/BS2022GRH/ChenThresholdGRH.lean:463:8: declaration uses `sorry`
+error: LeanLab/BS2022GRH/ChenThresholdGRH.lean:490:4: type expected, got
+  (AlmostPrimeSums.bordignonStarichkova_GRH : DERZ1997.GRH → ChenExplicit.ChenAbove (rexp (rexp 15.85)))
+info: LeanLab/BS2022GRH/ChenThresholdGRH.lean:496:0: 'LeanLab.BS2022GRH.ChenThresholdGRH.lemma9J_holds' depends on axioms: [propext, choice, Quot.sound]
+info: LeanLab/BS2022GRH/ChenThresholdGRH.lean:497:0: 'LeanLab.BS2022GRH.ChenThresholdGRH.section55_step' depends on axioms: [propext, choice, Quot.sound]
+info: LeanLab/BS2022GRH/ChenThresholdGRH.lean:498:0: 'LeanLab.BS2022GRH.ChenThresholdGRH.rep_of_pi2'' depends on axioms: [propext, choice, Quot.sound]
+info: LeanLab/BS2022GRH/ChenThresholdGRH.lean:499:0: 'LeanLab.BS2022GRH.ChenThresholdGRH.sum_Qset_filter' depends on axioms: [propext, choice, Quot.sound]
+info: LeanLab/BS2022GRH/ChenThresholdGRH.lean:500:0: 'LeanLab.BS2022GRH.ChenThresholdGRH.X2_ranges' depends on axioms: [propext, choice, Quot.sound]
+info: LeanLab/BS2022GRH/ChenThresholdGRH.lean:501:0: 'LeanLab.BS2022GRH.ChenThresholdGRH.cond19_13375' depends on axioms: [propext, choice, Quot.sound]
+info: LeanLab/BS2022GRH/ChenThresholdGRH.lean:502:0: 'LeanLab.BS2022GRH.ChenThresholdGRH.cond25_13375' depends on axioms: [propext, choice, Quot.sound]
+info: LeanLab/BS2022GRH/ChenThresholdGRH.lean:503:0: 'LeanLab.BS2022GRH.ChenThresholdGRH.threshold_nonvacuous' depends on axioms: [propext, choice, Quot.sound]
+info: LeanLab/BS2022GRH/ChenThresholdGRH.lean:504:0: 'LeanLab.BS2022GRH.ChenThresholdGRH.error_13375' depends on axioms: [propext, choice, Quot.sound]
+info: LeanLab/BS2022GRH/ChenThresholdGRH.lean:505:0: 'LeanLab.BS2022GRH.ChenThresholdGRH.chenThreshold13375_of_leaves' depends on axioms: [propext, choice, Quot.sound]
+info: LeanLab/BS2022GRH/ChenThresholdGRH.lean:506:0: 'LeanLab.BS2022GRH.ChenThresholdGRH.theorems567_of_inputs' depends on axioms: [propext, sorryAx, choice, Quot.sound]
+info: LeanLab/BS2022GRH/ChenThresholdGRH.lean:507:0: 'LeanLab.BS2022GRH.ChenThresholdGRH.chenThreshold13375_of_basic' depends on axioms: [propext,
+ sorryAx,
+ choice,
+ Quot.sound]
+info: LeanLab/BS2022GRH/ChenThresholdGRH.lean:508:0: 'LeanLab.BS2022GRH.ChenThresholdGRH.omega_of_sqfree' depends on axioms: [propext, choice, Quot.sound]
+info: LeanLab/BS2022GRH/ChenThresholdGRH.lean:509:0: 'LeanLab.BS2022GRH.ChenThresholdGRH.corollaryOneJ_of_threshold' depends on axioms: [propext, choice, Quot.sound]
+error: LeanLab/BS2022GRH/ChenThresholdGRH.lean:510:14: Unknown constant `bsGRH_of_threshold`
+Some required targets logged failures:
+- LeanLab.BS2022GRH.ChenThresholdGRH
+error: build failed
+EXIT 1 for LeanLab.BS2022GRH.Cert1575Closed
+=== main thread rebuild of Cert1575Closed after restoring repo AlmostPrimeSums/Statements.lean Tue Oct 27 09:48:36 UTC 2026
+warning: LeanLab/BS2022GRH/Cert1567.lean:157:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: LeanLab/BS2022GRH/Cert1567.lean:566:50: Variable name `he0` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _he0
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: LeanLab/BS2022GRH/Cert1567.lean:655:68: `mul_le_one₀` has been deprecated: No replacement, use constituent lemmas from proof.
+warning: LeanLab/BS2022GRH/Cert1567.lean:966:8: declaration uses `sorry`
+info: LeanLab/BS2022GRH/Cert1567.lean:978:0: 'LeanLab.BS2022GRH.Cert1567.bracket13375_holds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Cert1567.lean:979:0: 'LeanLab.BS2022GRH.Cert1567.b5_ge' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Cert1567.lean:980:0: 'LeanLab.BS2022GRH.Cert1567.b6_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Cert1567.lean:981:0: 'LeanLab.BS2022GRH.Cert1567.b7_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Cert1567.lean:982:0: 'LeanLab.BS2022GRH.Cert1567.li_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Cert1567.lean:983:0: 'LeanLab.BS2022GRH.Cert1567.mbar_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Cert1567.lean:984:0: 'LeanLab.BS2022GRH.Cert1567.chenThreshold13375_of_deep' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Cert1567.lean:985:0: 'LeanLab.BS2022GRH.Cert1567.eps1500_cert' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+✖ [9101/9101] Building LeanLab.BS2022GRH.Cert1575Closed (21s)
+trace: .> LEAN_PATH=/home/claude/lab/.lake/packages/Cli/.lake/build/lib/lean:/home/claude/lab/.lake/packages/batteries/.lake/build/lib/lean:/home/claude/lab/.lake/packages/Qq/.lake/build/lib/lean:/home/claude/lab/.lake/packages/aesop/.lake/build/lib/lean:/home/claude/lab/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/claude/lab/.lake/packages/importGraph/.lake/build/lib/lean:/home/claude/lab/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/claude/lab/.lake/packages/plausible/.lake/build/lib/lean:/home/claude/lab/.lake/packages/mathlib/.lake/build/lib/lean:/home/claude/lab/.lake/build/lib/lean /root/.elan/toolchains/leanprover--lean4---v4.35.0/bin/lean /home/claude/lab/LeanLab/BS2022GRH/Cert1575Closed.lean -o /home/claude/lab/.lake/build/lib/lean/LeanLab/BS2022GRH/Cert1575Closed.olean -i /home/claude/lab/.lake/build/lib/lean/LeanLab/BS2022GRH/Cert1575Closed.ilean -c /home/claude/lab/.lake/build/ir/LeanLab/BS2022GRH/Cert1575Closed.c --setup /home/claude/lab/.lake/build/ir/LeanLab/BS2022GRH/Cert1575Closed.setup.json --json
+error: LeanLab/BS2022GRH/Cert1575Closed.lean:17:80: unexpected token '/--'; expected 'lemma'
+info: LeanLab/BS2022GRH/Cert1575Closed.lean:27:0: 'LeanLab.BS2022GRH.Cert1575.eps1500' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Cert1575Closed.lean:28:0: 'LeanLab.BS2022GRH.Cert1575.chenThreshold13375_of_deep_closed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+Some required targets logged failures:
+- LeanLab.BS2022GRH.Cert1575Closed
+error: build failed
+EXIT 1
+=== main thread: docstring order fixed, rebuild Tue Oct 27 09:51:20 UTC 2026
+info: LeanLab/BS2022GRH/Cert1567.lean:984:0: 'LeanLab.BS2022GRH.Cert1567.chenThreshold13375_of_deep' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Cert1567.lean:985:0: 'LeanLab.BS2022GRH.Cert1567.eps1500_cert' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+ℹ [9101/9101] Built LeanLab.BS2022GRH.Cert1575Closed (19s)
+info: LeanLab/BS2022GRH/Cert1575Closed.lean:27:0: 'LeanLab.BS2022GRH.Cert1575.eps1500' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanLab/BS2022GRH/Cert1575Closed.lean:28:0: 'LeanLab.BS2022GRH.Cert1575.chenThreshold13375_of_deep_closed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+Build completed successfully (9101 jobs).
+EXIT 0
