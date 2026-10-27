@@ -82,46 +82,66 @@ no `sorryAx`.
 **A lower explicit threshold for Chen's theorem under GRH**
 aiXiv:2610.02760 (aixiv.261026.000001)
 
-### What is proved in Lean
+### Headline, added for v1.3: the threshold theorem, conditional
 
-Only the arithmetic and the parameter ranges of Section 5.4 of Bordignon and Starichkova,
-Ramanujan J. 64 (2024), at the new parameters. Chen's theorem is not stated in Lean, and neither
-GRH nor the cited theorems of Bordignon and Starichkova are formalised.
+`LeanLab.BS2022GRH.Cert1575.chenThreshold13375_of_deep_closed` in `LeanLab/BS2022GRH/Cert1575Closed.lean`:
+
+```
+theorem chenThreshold13375_of_deep_closed (h5 : Thm5J) (h6 : Thm6J) (h7 : Thm7J)
+    (hT4 : LinearSieveT4 (1 / 8349) 112 114) : ChenThreshold13375
+```
+
+with, in `LeanLab/BS2022GRH/ChenThresholdGRH.lean`,
+
+```
+def ChenThreshold13375 : Prop :=
+  GRH → ∀ N : ℕ, Even N → exp (exp 13.375) ≤ (N : ℝ) → ChenSqfreeRep N
+```
+
+`ChenSqfreeRep N`: N = p + m, p prime, m > 1 square-free with at most two prime factors.
+In words: assume the four cited inputs below. Then under GRH every even N ≥ exp(exp 13.375) is a
+prime plus such an m. Axioms: `propext`, `Classical.choice`, `Quot.sound` only, build log
+`logs/paperB/20261027T0807Z-9485-U-1575.log`, final entry; earlier entries in that log are failed
+attempts fixed before the final build.
+
+Proved inside, no hypotheses: `lemma9J_holds`, the journal's Lemma 9, from `U7153.lemma10`;
+`section55_step` and `rep_of_pi2'`, Section 5.5; `Cert1567.bracket13375_holds`, the exact
+brackets of Theorems 5, 6, 7 at the new parameters are at least K3J − 10⁻⁵ for every N ≥ X₂;
+`Cert1575.eps1500`, ε(1500) < 1/8349 by a kernel certificate, `decide +kernel`, 11 windows, no
+`native_decide`; `error_13375`; `cond19_13375`, `cond25_13375`, `X2_ranges`.
+
+### What is NOT proved in Lean: the hypotheses
+
+* GRH, an explicit argument.
+* `Thm5J`, `Thm6J`, `Thm7J`: Theorems 5, 6, 7 of Bordignon and Starichkova, transcribed by hand
+  and stated as Lean propositions, with GRH and the linear sieve as arguments. They use the
+  normalisation U_N = 2e^{-γ}∏_{p>2}(1 − (p−1)^{-2})∏_{p|N, p>2}(p−1)/(p−2); the journal prints
+  it without the factor 2. A transcription error here would not be caught by Lean.
+* `LinearSieveT4 (1/8349) 112 114`: their Theorem 4, the linear sieve, with Table 1 row 6100.
+* `theorems567_of_inputs`, deriving Theorems 5 to 7 from GRH, Lemma 3 and Lemma 7, is an open
+  `sorry` in `ChenThresholdGRH.lean`; `Cert1567.eps1500_cert` is a superseded `sorry`. Neither is
+  used by the headline, as its axiom list shows.
+
+One file is not a byte-for-byte copy: in `LeanLab/AlmostPrimeSums/Statements.lean` the cited
+statement `bordignonStarichkova_GRH` is a `def ... : Prop` here, the form that
+`ChenThresholdGRH.lean` uses, instead of a `theorem ... := by sorry` in an older lab copy. It is not
+used by the headline. This repository was built from a clean clone with these files,
+`lake build LeanLab.BS2022GRH.Cert1575Closed Papers.ChenGRH13375`, Build completed successfully
+(9103 jobs), log `logs/paperB/20261027-public-repo-build-Cert1575Closed.log`.
+
+### Earlier checks, v1 to v1.2, still valid
 
 In `LeanLab/BS2022GRH/`, namespace `LeanLab.BS2022GRH.Journal`:
 
 * `K3J` (`JournalMargin.lean`): the main-term constant of Section 5.4, as a real-valued function.
 * `theorem3_positive_main` (`JournalPositive.lean`):
   `0.0001 < K3J 0.00256 (exp eulerMascheroniConstant) (1 / 8349) 112 114 LeanLab.ChenExplicit.BJS.cbar`.
-* `conditions_13375`:
-  `1500 ≤ 0.00256 * exp 13.375 - 11 * 13.375 ∧ 11 / 0.00256 ≤ exp 13.375`,
-  the displays (19), (21), (25) at log log X₂ = 13.375.
-* `params_ok_13375`: `0.00256 < 1/24`, `400 ≤ 1500 ≤ 10^8`, and `0 < K3J(...)` at the same
-  arguments, so the parameter set is not vacuous.
-* `RangeCheck13375.lean`: `lemma7_range`, `display25_first`, `display25_third`, `remark1_H`,
-  `remark1_H_vacuity`, `mono_step`, `mono_range_13375`, `sieve_ranges_13375`, the fixed-threshold
-  and implied-range steps of Theorems 5 to 7 and the lemmas they use, at 13.375.
-* `theorem3_journal_main` (`JournalMargin.lean`): `0.0045 < K3J` at the journal's own parameters
-  α = 10^-3, ε = 1/5235, C₁ = 113, C₂ = 114.
-* `theorem3_lower_main`, `conditions_1345` (`JournalLower.lean`): the same checks at α = 0.0024,
-  log log X₂ = 13.45, with constant 0.0042.
+* `conditions_13375`, `params_ok_13375`, and `RangeCheck13375.lean`: the parameter ranges at 13.375.
+* `theorem3_journal_main`: `0.0045 < K3J` at the journal's own parameters.
+* `theorem3_lower_main`, `conditions_1345` (`JournalLower.lean`): the checks at log log X₂ = 13.45.
 
-e^γ is bracketed by `LeanLab/Helfgott2013/GammaFine.lean`; c̄ is bounded in
-`LeanLab/ChenExplicit/BJSCbar.lean`.
-
-### What is NOT proved in Lean
-
-* GRH and Chen's theorem.
-* Theorems 5, 6, 7 and Lemma 9 of Bordignon and Starichkova, which turn these numbers into a
-  lower bound for the Chen count. The paper cites them.
-* ε(1500) < 1/8349 from display (6), and the Table 1 constants C₁ = 112, C₂ = 114. These are
-  checked in Python only, see `scripts/i0088_numerics.py` and its output `scripts/i0088_numerics.out`.
-* The lower-order terms that `K3J` leaves out (the li factor 1 + 1/log y + ... and the 1/log² N terms of
-  Theorems 6 and 7), also bounded in Python only.
-
-Some file headers mention lab-internal paths such as `numerics/journal54_U1193.py` or
-`copies/P0021-journal.pdf`. Those files are not part of this repository; the Python check that
-the paper relies on is `scripts/i0088_numerics.py`.
+The Python script `scripts/i0088_numerics.py` remains as a numerical cross-check of ε(1500) and
+the total.
 
 ## Layout
 
