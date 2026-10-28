@@ -82,6 +82,16 @@ no `sorryAx`.
 **A lower explicit threshold for Chen's theorem under GRH**
 aiXiv:2610.02760 (aixiv.261026.000001)
 
+### Correction, 2026-10-28
+
+In commit 23bb733 the cited hypotheses `Thm5J`, `Thm6J`, `Thm7J` were transcribed too weakly:
+they did not require 0 < ε < 1/63, which the journal's Theorem 4 assumes, and did not require N to
+be even. With ε = 1, or with N odd, `Thm5J` could be refuted under GRH, so the conditional headline
+was vacuous. Both premises are now in the three statements, `LeanLab/BS2022GRH/ChenThresholdGRH.lean`,
+and the headline proof supplies them. The headline still builds, axioms `propext`,
+`Classical.choice`, `Quot.sound`, log `logs/paperB/20261028-public-repo-build-after-statement-fix.log`.
+Independent audits found both gaps before the entry went to the Palomar registry.
+
 ### Headline, added for v1.3: the threshold theorem, conditional
 
 `LeanLab.BS2022GRH.Cert1575.chenThreshold13375_of_deep_closed` in `LeanLab/BS2022GRH/Cert1575Closed.lean`:
